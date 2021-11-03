@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+#search {
+    background: #fff;
+    height: 50px;
+    width: 90%;
+    position:sticky;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items:center;
+}
+
+#search input {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+}
+
+#search button {
+    width: 5%;
+    height: 80%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+#blogs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog{
+    width: 80%;
+    height: auto;
+    background-color: rgb(211, 203, 203);
+    padding: 1rem;
+    margin-top: 0.5rem;;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+}
+
+.blog img{
+    width:20%;
+    max-height: 150px;
+}
+
+.blog span{
+    font-weight: 700;
+}
